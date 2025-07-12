@@ -13,7 +13,7 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 	}
 
 	return (
-		<div className='container mx-auto flex justify-between items-center h-[100px] px-[20px]'>
+		<div className='container mx-auto flex justify-between items-center h-[100px] px-[20px] '>
 			{activeDark ? (
 				<img src={Imoodev} alt='1' />
 			) : (

@@ -9,15 +9,15 @@ function ContactComponent() {
         },
         {
             title: 'Number',
-            description: '0641207229'
+            description: '+3788727188'
         },
         {
             title: 'Gmail',
-            description: 'ugimmekillzx@gmail.com'
+            description: 'tralala@gmail.com'
         },
         {
             title: 'Instagram',
-            description: '@gljesau'
+            description: '@tralala'
         }
     ]
 

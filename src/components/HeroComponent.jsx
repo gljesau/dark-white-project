@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function HeroComponent() {
   return (
@@ -8,8 +9,8 @@ function HeroComponent() {
         <p className='text-lightGray text-center mt-5'>with Immodev Reach more customers and grow your business potential online by building a website with us</p>
         </div>
         <div className='flex justify-center gap-5 mt-10 py-[20px] flex-col lg:flex-row'>
-        <button className='bg-mainBlue text-white px-[87px] py-[16px] dark:bg-white dark:border dark:border-white dark:text-mainBlue'>Consult Now</button>
-        <button className='bg-white text-mainBlue px-[87px] py-[16px] border border-mainBlue dark:bg-mainBlue dark:text-white dark:border dark:border-white'>Abous Us</button>
+        <Link to="/contact" className='bg-mainBlue text-white px-[87px] py-[16px] dark:bg-white dark:border dark:border-white dark:text-mainBlue'>Consult Now</Link>
+        <Link to="/about" className='bg-white text-mainBlue px-[87px] py-[16px] border border-mainBlue dark:bg-mainBlue dark:text-white dark:border dark:border-white'>Abous Us</Link>
         </div>
     </div>
   )

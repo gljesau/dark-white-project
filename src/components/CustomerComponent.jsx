@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function CustomerComponent() {
   return (
@@ -11,19 +12,19 @@ function CustomerComponent() {
                 <h1 className='text-[64px] text-mainBlue font-extrabold'>01</h1>
                 <h2 className='text-[24px] text-mainBlue font-bold mt-[32px] mb-[6px]'>Expand your business to the online realm</h2>
                 <p className='text-[16px] text-lightGray mb-[64px]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
-                <p className='text-[16px] text-mainBlue font-bold underline'>Learnmore</p>
+                <Link to="/register" className='text-[16px] text-mainBlue font-bold hover:underline hover:text-[20px]'>Learn more</Link>
             </div>
             <div className='border border-lightGray dark:bg-white bg-white w-[30.3%] h-[465px] pl-[40px] pr-[40px] pt-[32px]'>
                 <h1 className='text-[64px] text-mainBlue font-extrabold'>02</h1>
                 <h2 className='text-[24px] text-mainBlue font-bold mt-[32px] mb-[6px]'>Expand your business to the online realm</h2>
                 <p className='text-[16px] text-lightGray mb-[64px]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
-                <p className='text-[16px] text-mainBlue font-bold underline'>Learnmore</p>
+                <Link to="/register" className='text-[16px] text-mainBlue font-bold hover:underline hover:text-[20px]'>Learn more</Link>
             </div>
             <div className='border border-lightGray dark:bg-white bg-white w-[30.3%] h-[465px] pl-[40px] pr-[40px] pt-[32px]'>
                 <h1 className='text-[64px] text-mainBlue font-extrabold'>03</h1>
-                <h2 className='text-[24px] text-mainBlue font-bold mt-[32px] mb-[6px]'>Enjoy the results of selling online</h2>
+                <h2 className='text-[24px] text-mainBlue font-bold mt-[32px] mb-[6px]'>Enjoy the results of selling online staff</h2>
                 <p className='text-[16px] text-lightGray mb-[64px]'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat </p>
-                <p className='text-[16px] text-mainBlue font-bold underline'>Learnmore</p>
+                <Link to="/register" className='text-[16px] text-mainBlue font-bold hover:underline hover:text-[20px]'>Learn more</Link>
             </div>
         </div>
     </div>

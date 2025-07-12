@@ -1,9 +1,11 @@
 import React from 'react'
+import { PiArrowCircleRightFill } from "react-icons/pi";
+
 
 function FooterComponent() {
   return (
-      <footer className=" bg-white dark:bg-[#0D1B39] text-gray-800 dark:text-white py-10 px-6">
-      <div className="mt-[140px] mx-auto container max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      <footer className="bg-white dark:bg-mainBlue text-gray-800 dark:text-white py-10 px-6">
+      <div className="mt-[140px] mx-auto container flex flex-row justify-between">
         
         
         <div>
@@ -23,10 +25,13 @@ function FooterComponent() {
         <div>
           <h3 className="text-md font-semibold mb-3">Our Feature</h3>
           <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
-            <li>Playing With Code</li>
-            <li>Promoting tools</li>
-            <li>Our Portfolio</li>
-            <li>Employee Benefits</li>
+            <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+  <li className="hover:underline cursor-pointer">Playing With Code</li>
+  <li className="hover:underline cursor-pointer">Promoting tools</li>
+  <li className="hover:underline cursor-pointer">Our Portfolio</li>
+  <li className="hover:underline cursor-pointer">Employee Benefits</li>
+</ul>
+
           </ul>
         </div>
 
@@ -34,8 +39,8 @@ function FooterComponent() {
         <div>
           <h3 className="text-md font-semibold mb-3">Our Service</h3>
           <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
-            <li>Digital Service</li>
-            <li>Marketing Service</li>
+            <li className="hover:underline cursor-pointer">Digital Service</li>
+            <li className="hover:underline cursor-pointer">Marketing Service</li>
           </ul>
         </div>
 
@@ -49,11 +54,11 @@ function FooterComponent() {
             <input
               type="email"
               placeholder="Email address"
-              className="flex-1 w-[360px] h-[60px] px-4 py-2 text-sm border border-gray-300 rounded-[5px] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-transparent dark:border-gray-600 dark:text-white"
+              className="flex-1 w-[360px] h-[60px] px-4 py-2 text-sm dark:bg-white border border-gray-300 rounded-[5px] focus:outline-none focus:ring-2 dark:bg-transparent dark:border-gray-600 dark:text-white"
             />
-            <button className="bg-mainBlue h-[60px] w-[60px] text-white p-2 rounded-[5px] transition">
-             ->
-            </button>
+            <button className="flex items-center justify-center dark:bg-white dark:text-mainBlue bg-mainBlue h-[60px] w-[60px] text-white p-2 rounded-[5px] transition">
+  <PiArrowCircleRightFill size={25} />
+</button>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function EmailComponent() {
         <input
           type="email"
           placeholder="Your email address here"
-          className="flex-1 px-4 py-2 ptborder border-gray-300 focus:outline-none  bg-mainBlue"
+          className="flex-1 px-4 py-2 ptborder border-gray-300 focus:outline-none  bg-mainBlue dark:text-white text-white"
         />
         <button className="bg-white w-[183px] h-[63px] text-mainBlue mr-[10px]">
           Subscribe
