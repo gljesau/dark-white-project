@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.active{
-    color: red
+.active {
+  @apply text-red-600 underline font-bold;
 }

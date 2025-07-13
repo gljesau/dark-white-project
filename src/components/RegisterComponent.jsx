@@ -65,7 +65,7 @@ function RegisterPage() {
 
 	return (
 		<div className=''>
-			<h2 className='mt-[15px] text-[60px] dark:text-white  extrabold text-center'>Register Form</h2>
+			<h2 className='mt-[20px] text-[60px] dark:text-white  font-extrabold text-center'>Register Form</h2>
 
 			<form
 				onSubmit={formik.handleSubmit}
